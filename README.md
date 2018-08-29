@@ -1,6 +1,21 @@
 # elixir-cli-tool
 CLI tool for calling elixir functions
 
+## Installation
+
+### Prerequisites
+
+You must have Elixir installed.
+
+### Install
+
+Put the `el` file in your $PATH and make sure that it is executable.
+
+```bash
+>> chmod +x el
+>> cp el /usr/local/bin/el
+```
+
 ## Usage
 
 Use the `@` symbol to indicate where you would like the text from stdin to be passed in your code.
